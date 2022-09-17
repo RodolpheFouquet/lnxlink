@@ -12,7 +12,7 @@ It is inspired by [IOT Link](https://iotlink.gitlab.io/).
 # Installation
 One command install:
 ```shell
-bash <(curl -s "https://raw.githubusercontent.com/bkbilly/lnxlink/master/install.sh")
+bash <(curl -s "https://raw.githubusercontent.com/rodolphefouquet/lnxlink/master/install.sh")
 ```
 You can manually update the configuration file `/opt/lnxlink/config.yaml` and restart the service with the use of systemctl:
 ```shell

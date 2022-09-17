@@ -3,7 +3,7 @@ import subprocess
 class Addon():
     service = 'suspend'
     name = 'Suspend'
-    icon = 'mdi:restart'
+    icon = 'mdi:sleep'
     unit = 'json'
 
     def startControl(self, topic, data):

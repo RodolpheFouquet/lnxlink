@@ -18,6 +18,7 @@ mqtt:
 control:
   - shutdown
   - restart
+  - suspend
   - send-keys
   - run
   - notify
