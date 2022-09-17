@@ -39,7 +39,7 @@ fi
 # Download from GitHub
 if [ ! -d $basedir ]; then
     echo -e "\e[35mDownloading from GitHub...\e[0m"
-    sudo git clone https://github.com/bkbilly/lnxlink.git $basedir
+    sudo git clone https://github.com/rodolphefouquet/lnxlink.git $basedir
     sudo cp $basedir/config_temp.yaml $basedir/config.yaml
 else
     echo -e "\e[35mAlready exists, updating...\e[0m"
